@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="bPRESS()">
+    <p>STACHE:</p>
+    <div id="stacheholder">
+        
+    </div>
+    <p>BET:</p>
+    <input type="text" id="betholder">
+    <div id="placeholder">
+    <div id="opdeck"></div>
+    <div id="deck"></div>
+    <div id="infoplace"></div>
+    <button id="start" onclick="newRound()">START</button>
+    <button id="restartuj" onclick="reset()">AGAIN</button>
+    <button id="play" onclick="graczBONUS()"> HIT </button>
+    <button id="pass" onclick="przeciwnikBONUS()">STAND</button>
+</div>
+</body>
+</html>

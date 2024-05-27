@@ -1,0 +1,137 @@
+body{
+    background-color: darkolivegreen;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#start{
+    background-color: rgb(192, 23, 23);
+    border: dashed 20px white;
+    color: white;
+    
+}
+
+#restartuj{
+    background-color: white;
+    border: dashed 20px black;
+    color: black;
+}
+button{
+    height: 200px;
+    font-size: 40px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+#play{
+    background-color: rgb(48, 48, 240);
+    color: white;
+    border: dashed 20px white;
+}
+#pass{
+    background-color: black;
+    border:20px dashed white;
+    color: white;
+
+}
+#placeholder{
+    width: 100%;
+    height: 220px;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#betholder{
+    width: 204px;
+    height: 40px;
+    background-color: gold;
+    border: 10px solid goldenrod;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: auto;
+}
+#stacheholder{
+    width: 204px;
+    height: 40px;
+    background-color: gainsboro;
+    border: 10px solid gray;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    padding: auto;
+}
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#deck{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    margin-bottom: 5%;
+}
+#opdeck{
+    height: 200px;
+    width: 800px;
+    display: flex;
+    margin-bottom: 5%;
+}
+#karta{
+    height: 200px;
+    width:150px;
+    margin-left: 10px;
+    background-image: linear-gradient(
+      45deg,
+      #000 25%,
+      transparent 25%,
+      transparent 75%,
+      #000 75%,
+      #000
+    ),
+    linear-gradient(
+      -45deg,
+      #000 25%,
+      transparent 25%,
+      transparent 75%,
+      #000 75%,
+      #000
+    );
+    background-size: 20px 20px;
+  background-repeat: repeat;
+  background-color: rgb(243, 26, 26);
+  border: 3px white solid;
+
+}
+#kartablack{
+    height: 200px;
+    width:150px;
+    background-color: aliceblue;
+    margin-left: 10px;
+    color: black;
+    border: 3px solid black;
+    font-size: 30px;
+
+}
+#kartared{
+    color: rgb(243, 26, 26);
+    border: 3px solid rgb(243, 26, 26);
+    height: 200px;
+    width:150px;
+    background-color: aliceblue;
+    margin-left: 10px;
+    font-size: 30px;
+
+}
+
+#infoplace{
+    height: 500px;
+    width: 300px;
+    background-color: aliceblue;
+    border: gray 5px solid;
+    display: block;
+}
